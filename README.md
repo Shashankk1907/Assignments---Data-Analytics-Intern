@@ -20,23 +20,4 @@ The goal is to **collate daily PR and GHI data** into a single CSV file and **ge
   - Statistical summary (7-day, 30-day, 60-day average PR, etc.).
 - (Bonus) Allow filtering by **custom date range**.
 
----
-
-## 🧩 Folder Structure
-project/
-│
-├── data/
-│ ├── PR/
-│ │ ├── 2019-07/
-│ │ │ ├── 2019-07-01_PR.csv
-│ │ │ └── ...
-│ └── GHI/
-│ ├── 2019-07/
-│ │ ├── 2019-07-01_GHI.csv
-│ │ └── ...
-│
-├── merged_PR_GHI.csv # Combined dataset (Date, GHI, PR)
-├── pr_graph.png # Output graph
-├── main.py # Main script
-└── README.md # Documentation
 
